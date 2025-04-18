@@ -1,0 +1,200 @@
+/* Responsive Styles for Mahea Bul Portfolio */
+
+/* Large Devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .hero-content {
+      padding: 0 20px;
+    }
+    
+    .skill-item {
+      width: calc(33.33% - 20px);
+    }
+    
+    .project-card {
+      width: calc(50% - 30px);
+    }
+  }
+  
+  /* Medium Devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) {
+    .container {
+      padding: 0 20px;
+    }
+    
+    .section {
+      padding: 60px 0;
+    }
+    
+    .hero {
+      padding-top: 120px;
+    }
+    
+    .hero-content {
+      flex-direction: column;
+    }
+    
+    .text-content, 
+    .hero-image {
+      width: 100%;
+      text-align: center;
+    }
+    
+    .hero-image {
+      margin-top: 40px;
+    }
+    
+    .social-icons {
+      justify-content: center;
+    }
+    
+    .about-text, 
+    .about-stats {
+      width: 100%;
+    }
+    
+    .about-stats {
+      margin-top: 30px;
+    }
+    
+    .skill-item {
+      width: calc(50% - 20px);
+    }
+    
+    .certification-item {
+      width: calc(50% - 20px);
+    }
+    
+    .contact-info, 
+    .contact-form {
+      width: 100%;
+    }
+    
+    .contact-info {
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* Small Devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) {
+    #header .container {
+      padding: 15px;
+    }
+    
+    #navbar ul {
+      display: none;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      flex-direction: column;
+      background-color: var(--bg-color);
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+    }
+    
+    #navbar ul.active {
+      display: flex;
+    }
+    
+    #navbar ul li {
+      margin: 0;
+      padding: 10px 20px;
+    }
+    
+    .hamburger {
+      display: block;
+    }
+    
+    .hamburger.active span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+    
+    .hamburger.active span:nth-child(2) {
+      opacity: 0;
+    }
+    
+    .hamburger.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(7px, -7px);
+    }
+    
+    .hero {
+      padding-top: 100px;
+    }
+    
+    .hero-content .text-content h1 {
+      font-size: 36px;
+    }
+    
+    .hero-content .text-content h2 {
+      font-size: 20px;
+    }
+    
+    .section-header h2 {
+      font-size: 30px;
+    }
+    
+    .project-card {
+      width: 100%;
+    }
+    
+    .certification-item {
+      width: 100%;
+    }
+    
+    .stat {
+      width: 100%;
+    }
+    
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .footer-logo {
+      margin-bottom: 20px;
+    }
+    
+    .footer-social a {
+      margin: 0 10px;
+    }
+  }
+  
+  /* Extra Small Devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .hero-content .text-content h1 {
+      font-size: 30px;
+    }
+    
+    .hero-content .text-content h2 {
+      font-size: 18px;
+    }
+    
+    .hero-content .text-content p {
+      font-size: 16px;
+    }
+    
+    .cta-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .cta-buttons .btn {
+      margin-right: 0;
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    
+    .skill-item {
+      width: 100%;
+    }
+    
+    .modal-content {
+      width: 95%;
+      padding: 20px;
+    }
+  }
+
+
+
+  
